@@ -1,0 +1,34 @@
+body {
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #020621;
+}
+
+.title {
+    text-align: left;
+    font-size: 2em;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: wrap;
+}
+
+.flex-item {
+    flex-flow: nowrap;
+    width: 15%;
+    padding: 1%;
+    border-radius: 7px;
+    margin: 0 2% 0 0;
+    font-size: 16px;
+    background-color: coral;
+}
+
+.input-text {
+    margin: 2% 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+}
